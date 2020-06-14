@@ -1,0 +1,189 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 200%);
+    }
+    
+    .card {
+        background: url(pizza.jpg) no-repeat center;
+        background-size: cover;
+        display: grid;
+        border-radius: 1em;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(6, 100px);
+        grid-template-areas: "buscador""titulo""mini-bar""info";
+        box-shadow: 5px 5px 30px black;
+    }
+    
+    .buscador {
+        grid-area: buscador;
+        display: flex;
+        justify-self: center;
+        height: 1em;
+        width: 90%;
+        height: 30%;
+        margin-top: 2em;
+        border-radius: 2em;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .4), rgb(20, 12, 12, .4));
+    }
+    
+    .icon {
+        flex: 1;
+        padding: 0 1em;
+        color: rgb(158, 155, 155);
+    }
+    
+    .buscador .icon i {
+        padding-top: .5em;
+    }
+    
+    .space {
+        flex: 4;
+    }
+    
+    .titulo {
+        grid-area: titulo;
+        display: flex;
+        flex-flow: row wrap;
+        width: 60%;
+        height: 60%;
+        padding: 1em;
+        justify-content: center;
+        border-radius: 1em;
+        margin: 1em;
+        text-transform: capitalize;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .4), rgb(20, 12, 12, .4));
+    }
+    
+    .titulo h3 {
+        color: rgb(158, 155, 155);
+        font-size: 2em;
+        flex: 100%;
+    }
+    
+    .titulo p {
+        color: rgb(158, 155, 155);
+        font-size: .9em;
+        padding-left: .3em;
+        flex: 75%;
+    }
+    
+    .titulo i {
+        flex: 25%;
+        font-size: 1.4em;
+        color: rgb(158, 155, 155);
+    }
+    
+    .mini-bar {
+        grid-area: mini-bar;
+        grid-row: 5/6;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 60%;
+        margin: 1em;
+        padding: 0 0 1em 0;
+        border-radius: 1em;
+        text-transform: capitalize;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    
+    .item1 {
+        color: rgb(158, 155, 155);
+        flex: 1;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .8), rgb(20, 12, 12, .8));
+        border-radius: 1em;
+        margin: .1em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .item2 {
+        color: rgb(158, 155, 155);
+        flex: 1;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .8), rgb(20, 12, 12, .8));
+        border-radius: 1em;
+        margin: .1em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .item3 {
+        color: rgb(158, 155, 155);
+        flex: 1;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .8), rgb(20, 12, 12, .8));
+        border-radius: 1em;
+        margin: .1em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .info {
+        grid-row: 6/7;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .8), rgb(20, 12, 12, .8));
+        border-radius: 1em;
+        height: 80%;
+        margin: 0 1em 0 1em;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    
+    .info p {
+        font-size: .7em;
+    }
+    
+    .image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid rgba(0, 0, 0, 0.37);
+    }
+    
+    .image i {
+        font-size: 1.5em;
+        color: rgb(158, 155, 155);
+    }
+    
+    .text {
+        flex: 2;
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .text p {
+        text-align: center;
+        color: rgb(158, 155, 155);
+    }
+    
+    .text h4 {
+        color: rgb(158, 155, 155);
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .pay {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid rgba(0, 0, 0, 0.37);
+    }
+    
+    .pay i {
+        color: rgb(158, 155, 155);
+        flex: 1;
+        text-align: center;
+        font-size: 1.5em;
+    }
