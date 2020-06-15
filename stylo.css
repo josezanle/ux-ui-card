@@ -34,7 +34,7 @@
         height: 30%;
         margin-top: 2em;
         border-radius: 2em;
-        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .4), rgb(20, 12, 12, .4));
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .6), rgb(20, 12, 12, .6));
     }
     
     .icon {
@@ -62,7 +62,7 @@
         border-radius: 1em;
         margin: 1em;
         text-transform: capitalize;
-        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .4), rgb(20, 12, 12, .4));
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .6), rgb(20, 12, 12, .6));
     }
     
     .titulo h3 {
