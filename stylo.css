@@ -62,7 +62,7 @@
         border-radius: 1em;
         margin: 1em;
         text-transform: capitalize;
-        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .6), rgb(20, 12, 12, .6));
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0, .8), rgb(20, 12, 12, .8));
     }
     
     .titulo h3 {
